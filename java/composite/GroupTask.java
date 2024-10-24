@@ -12,11 +12,6 @@ public class GroupTask implements Task {
     }
 
     @Override
-    public void show() {
-
-    }
-
-    @Override
     public void complete() {
         tasks.forEach(Task::complete);
     }

@@ -8,11 +8,6 @@ public class IndividualTask implements Task {
     }
 
     @Override
-    public void show() {
-
-    }
-
-    @Override
     public void complete() {
 
     }
